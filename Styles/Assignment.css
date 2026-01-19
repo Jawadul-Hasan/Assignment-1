@@ -8,27 +8,27 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-/* body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
 header{
     background-color: white;
     width: 100%;
     max-width: 1600px;
+    margin: 0 auto;
 }
 
 nav{
     width: 95%;
-    /* height: auto; */
+    height: auto;
     max-width: 1600px;
     display: flex;
     justify-content: space-between;
     padding: 16px 120px;
     align-items: center;
-    /* margin: 0px auto; */
 }
 
 nav .navbar-menu{
@@ -161,7 +161,6 @@ nav .navbar-menu a{
 }
 
 .about-info .info-card {
-    /* flex: 1; */
     max-width: 322px;
     background-color: #FFFFFF;
     box-shadow: 0px 10px 15px;
@@ -198,14 +197,12 @@ nav .navbar-menu a{
     max-width: 1600px;
     padding: 102px;
     align-items: center;
-    border: 2px solid red;
 }
 
 #solution .solution-section{
     max-width: 1360px;
     display: flex;
     justify-content: center;
-    border: 2px solid red;
 }
 
 #solution .solution-section .solution-img img{
@@ -213,9 +210,9 @@ nav .navbar-menu a{
     height: auto;
     vertical-align: middle;
 }
+
 .solution-section .solution-info{
     margin-left:  60px;
-    /* border: 2px solid red; */
 }
 
 .solution-section .solution-info .til{
@@ -230,11 +227,10 @@ nav .navbar-menu a{
 }
 
 .solution-section .solution-info .sol-para{
-    /* width: 450px; */
     font-size: 16px;
     font-weight: 400;
     color: #627382;
-    padding-right: 150px;
+    padding-right: 250px;
     margin-bottom: 40px;
 }
 
