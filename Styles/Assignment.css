@@ -248,3 +248,38 @@ nav .navbar-menu a{
     font-weight: 400;
     line-height: 30px;
 }
+
+#ready{
+    max-width: 1600px;
+}
+
+#ready .ready-container{
+    width: 1360px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+
+.ready-content{
+    padding: 80px 40px;
+}
+
+.ready-content h1{
+   margin-bottom: 16px;
+}
+
+.ready-content .ready-para{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+.ready-content button{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.ready-content img{
+    vertical-align: middle;
+}
