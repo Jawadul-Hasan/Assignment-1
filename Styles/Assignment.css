@@ -8,10 +8,11 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-body {
+/* body {
     display: flex;
     justify-content: center;
-}
+    align-items: center;
+} */
 
 header{
     background-color: white;
@@ -70,13 +71,10 @@ nav .navbar-menu a{
 .button-1 button {
   background-color: #FFFFFF;
   color: #30B868;
-
   font-size: 16px;
   font-weight: 500;
-
   padding: 8px 16px;
   margin-bottom: 16px;
-
   border: none;
   border-radius: 100px;
 }
@@ -194,4 +192,63 @@ nav .navbar-menu a{
     font-size: 16px;
     font-weight: 400;
     color: #627382;
+}
+
+#solution{
+    max-width: 1600px;
+    padding: 102px;
+    align-items: center;
+    border: 2px solid red;
+}
+
+#solution .solution-section{
+    max-width: 1360px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+#solution .solution-section .solution-img img{
+    width: 600px;
+    height: auto;
+    vertical-align: middle;
+}
+.solution-section .solution-info{
+    margin-left:  60px;
+    /* border: 2px solid red; */
+}
+
+.solution-section .solution-info .til{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 102px;
+}
+
+.solution-section .solution-info h1{
+    margin-bottom: 16px;
+}
+
+.solution-section .solution-info .sol-para{
+    /* width: 450px; */
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    padding-right: 150px;
+    margin-bottom: 40px;
+}
+
+.solution-info .sol-list{
+    list-style: none;
+    align-items: center;
+}
+
+.solution-info .sol-list img{
+    vertical-align: middle;
+}
+
+.solution-info .sol-list li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
 }
