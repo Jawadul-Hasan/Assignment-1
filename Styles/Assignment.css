@@ -283,3 +283,54 @@ nav .navbar-menu a{
 .ready-content img{
     vertical-align: middle;
 }
+
+footer{
+    background-color: #001931;
+    padding: 120px;
+}
+
+#footer-container{
+    max-width: 1360px;
+    margin: 0px auto;
+    color: #FFFFFF;
+}
+
+#footer-container .footer-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer-section .footer-icons{
+    padding-right: 70px;
+}
+
+.footer-section .footer-icons p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.footer-section .footer-icons ul{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-icons li{
+    list-style: none;
+}
+
+.copyright{
+    margin-top: 80px;
+}
+
+.copyright hr{
+    margin-bottom: 30px;
+}
+
+.copyright p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
